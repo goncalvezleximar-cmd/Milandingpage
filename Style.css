@@ -1,7 +1,7 @@
 /* Estilos generales */
 :root {
-    --primary-color: #1d6392;
-    --secondary-color: #2c3e50;
+    --primary-color: #4b48e0;
+    --secondary-color: #2755d1;
     --text-color: #333333;;
     --background-color: #f4f4f4;
     --light-gray: #ecf0f1;
@@ -9,7 +9,7 @@
 
 
 body {
-    font-family: "inter", sans-serif;
+    font-family: "Roboto Condensed";
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -20,7 +20,7 @@ body {
 
 .header {
     background: var(--secondary-color);
-    color: white;
+    color: rgb(231, 146, 146);
     padding: 1rem 0;
     position: fixed;
     width: 100%;
@@ -39,7 +39,7 @@ body {
 }
 
 .nav-link {
-    color: white;
+    color: rgb(184, 146, 255);
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -104,7 +104,7 @@ body {
 }
 
 .list li {
-    background-color: white;
+    background-color: rgb(209, 190, 235);
     border-left: 5px solid var(--primary-color);
     padding: 1rem;
     margin-bottom: 1rem;
@@ -114,7 +114,7 @@ body {
 
 .list-inline li {
     display: inline-block;
-    background-color: var(--light-gray);
+    background-color:#9b99f8;
     padding: 0.5rem 1rem;
     border-radius: 20px;
     margin: 0.5rem;
@@ -141,7 +141,7 @@ body {
 
 .linktree-link {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(155, 146, 231);
     text-decoration: none;
     padding: 1rem 2rem;
     width: 250px;
@@ -172,7 +172,7 @@ body {
 
 .submit-button {
     background-color: var(--primary-color);
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 1rem;
     border-radius: 5px;
